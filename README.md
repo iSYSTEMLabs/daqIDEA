@@ -5,17 +5,17 @@ https://www.isystem.com/downloads/winIDEA/help/daqidea.html
 ## How to prepare environment
 1. Required on Linux:
 
-   sudp apt install libxerces-c3.2
+    `sudo apt install libxerces-c3.2`
    
 2. Add required python dependencies by executing setup.py module, an example:  
 
-   python setup.py install
+    `python setup.py install`
    
 3. Since pyqt5 dependency fails to install via setup.py, it needs to be installed manually as:  
 
-   python.exe -m pip install pyqt5
+    `python.exe -m pip install pyqt5`
 
 
 ## How to run daqIDEA
 
-    python.exe src\daqIDEA.py
+    python src\daqIDEA.py
